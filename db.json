@@ -1,0 +1,29 @@
+{
+    "meals": [
+      {
+        "id": 1,
+        "name": "Oatmeal",
+        "mealTime": "Breakfast"
+      },
+      {
+        "id": 2,
+        "name": "Grilled Chicken Salad",
+        "mealTime": "Lunch"
+      },
+      {
+        "id": 3,
+        "name": "Spaghetti Bolognese",
+        "mealTime": "Dinner"
+      },
+      {
+        "id": 4,
+        "name": "Greek Yogurt with Honey",
+        "mealTime": "Breakfast"
+      },
+      {
+        "id": 5,
+        "name": "Tuna Sandwich",
+        "mealTime": "Lunch"
+      }
+    ]
+  }

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a Meal</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: pink;
+            padding: 20px;
+        }
+
+        .container {
+            width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: green;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        input[type="text"], input[type="number"], input[type="date"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: green;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: darkgreen;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Add a Meal</h2>
+    
+    <form>
+        <label for="meal-name">Meal Name:</label>
+        <input type="text" id="meal-name" name="meal-name">
+        
+        <label for="calories">Calories:</label>
+        <input type="number" id="calories" name="calories">
+        
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date">
+        
+        <button type="submit">Add Meal</button>
+    </form>
+
+    <h3>Meal History</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Meal Name</th>
+                <th>Calories</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Meal entries will go here -->
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
